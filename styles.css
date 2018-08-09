@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: lightgray;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.menu a{
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #296cd8;
+}
+
+header img{
+    height: 40px;
+    width: 40px;
+    float: right;
+    padding-right: 15px;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.exemplo li{
+    background-color: rgb(243, 6, 77);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 15px;
+    text-align: right;
+    border-radius: 10%;
+    color: black;
+
+    
+}
+
+li:nth-child(2){
+    background-color: #db470d;
+    height: 200px;
+    width: 200px;
+    
+}
+
+li:nth-child(3){
+    background-color: #f5c242;
+    height: 200px;
+    width: 200px;
+    
+}
+
+li:nth-child(4){
+    background-color: #b5f441;
+    height: 200px;
+    width: 200px;
+    
+}
+
+li:last-child{
+    background-color: rgb(30, 255, 0);
+    height: 200px;
+    width: 200px;
+}
+
+.tarf li{
+
+    background-color: rgb(109, 226, 241);
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+    color: black;
+    border-radius: 10%;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.container li{
+    background: #f5c242;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    flex-flow: row;
+}
+
+.fds{
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
+#Poid{
+    position: fixed;
+    z-index: -1;
+    
+}
+
+.flor{
+    
+    position: absolute;
+    top: 125%;
+    left: 15%;
+   
+    
+
+}
+
+img{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+
+}
